@@ -400,7 +400,7 @@ async function renderCardByUser() {
     <div class="user-info">
         <label class="personal-label">
         Введите id нужного пользователя
-        <input class="personal-input" id="searchingId" type="number" min="1" placeholder="1" required style="width: 10%">
+        <input class="personal-input" id="searchingId" type="number" min="1" placeholder="1" required>
         </label>
         <button id="findCards">Посмотреть карточки</button>
         <div class="user-cards-container"></div>

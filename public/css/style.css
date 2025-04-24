@@ -258,3 +258,21 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+#searchingId {
+    width: 30%;
+}
+
+@media (max-width: 420px) {
+    .cabinet-container {
+        flex-direction: column;
+    }
+
+    #gift-cards-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .user-cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
